@@ -1,0 +1,12 @@
+.venv/ 
+dataset/ 
+*.zip 
+.env 
+__pycache__/ 
+.ipynb_checkpoints/ 
+traffic violation/ 
+traffic_violation_project/ 
+.gradio/ 
+models/yolo/runs/ 
+results/ 
+optuna/ 

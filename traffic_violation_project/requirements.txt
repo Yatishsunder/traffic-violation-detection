@@ -1,0 +1,15 @@
+# Install PyTorch first (see README), then run: pip install -r requirements.txt
+# Versions below are the ones used in this project's environment (Python 3.12.6).
+
+# Needed to run the app and inference scripts
+ultralytics==8.4.173
+easyocr==1.7.2
+gradio==6.29.1
+opencv-python==5.0.0.93
+numpy==2.5.2
+pandas==3.0.6
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Training only (src/optuna_search.py); not needed to run the app
+optuna==5.0.0
